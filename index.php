@@ -98,7 +98,7 @@ if (($handle = fopen($spreadsheet_url, "r")) !== FALSE) {
     $nationalites=array();
     echo "<ol>";
     foreach($spreadsheet_data as $requested_member){
-        if($requested_member[9]=='oui'){
+        if($requested_member[9]=='yes'){
             array_push($nationalites,$requested_member[4]);
             echo "<li>";
             echo "<a href='";
