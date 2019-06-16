@@ -5,71 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <style>
-    @media screen and (max-width: 1024px){
-        article {
-            width:100%;
-            left: -10px;
-            position: absolute;
-        }
-        .navbar, .toc, .toctitle {
-            display: none;
-            visibility: hidden;
-            position: absolute;
-            top: -999px;
-            left: -9999px;
-        }
-        img.flag{
-            vertical-align:text-top;
-            margin-left:3px;
-        }
-    }
-    @media screen and (min-width: 1024px) {
-        .navbar {
-            overflow: hidden;
-            position: fixed;
-            top: 100;
-            width: 160px;
-        }
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: left;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 14px;
-        }
-        img.flag{
-            vertical-align:text-top;
-            margin-left:3px;
-        }
-    }
-    @media print {
-        .firstHeading{display:none;}
-        .sheet {
-            overflow: hidden;
-            position: relative;
-            box-sizing: border-box;
-            page-break-after: always;
-        }
-        .code-block {
-            background-color: #858789;
-            padding: 5mm
-        }
-        /** Paper sizes **/
-        body.A4 article { width: 210mm; height: 296mm }
-        header, content, aside, footer, nav {display:none;}
-        p {font-size:10pt;color: black;}
-        h1{font-size:18pt;color: red; font-family:Serif;}
-        h2{font-size:14pt;color: black;}
-        h3{font-size:12pt;color: black;}
-        h4{font-size:11pt;color: black;}
-        a { color: #000!important; text-decoration: underline!important;}
-        a[href]:after {content: " (" attr(href) ")"; /* affichage des URL des liens */}
-        h1, h2, h3 {page-break-after: avoid; /* pas de saut après ces éléments */}
-    }
-      </style>
+    <link rel="stylesheet" src="style.css"/>
     <link rel="stylesheet" href="https://fr.wikipedia.org/w/load.php?debug=false&amp;lang=fr&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
 <script async="" src="https://fr.wikipedia.org/w/load.php?debug=false&amp;lang=fr&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
         <!-- Chargement de la feuille de style -->
