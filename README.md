@@ -12,7 +12,7 @@ It shows :
 ## How ?
 
 It works with Google Charts
-It can be used with a Google Sheet, shared as CSV or a CSV
+It can be used with a Google Sheet, shared as CSV or simply a native CSV
 
 ## How to
 
