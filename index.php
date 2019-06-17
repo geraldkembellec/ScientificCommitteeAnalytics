@@ -128,5 +128,11 @@ else
     </div>
 
 </article>
+ <footer>
+        Find this reporting template for your own project 
+     <a href="https://github.com/geraldkembellec/ScientificCommitteeAnalytics">
+         on https://github.com/geraldkembellec/ScientificCommitteeAnalytics
+     </a>
+ </footer>
 </body>
 </html>
